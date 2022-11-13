@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&Delta;H</title>
+</head>
+<script src="script.js"></script>
+<body>
+
+    <main>
+
+    <h1>&Delta;H</h1>
+
+    <fieldset id="camp">
+        <input type="text" name="reagentes" id="reagentes" placeholder="En. reagentes">
+        <input type="text" name="produtos" id="produtos" placeholder="En. produtos">
+        <input id="ca" type="text" placeholder="Complexo ativado">
+    </fieldset>
+    
+    <br>
+
+    <label for="ativacao">Possui ativação</label><input type="checkbox" id="ativacao" onchange="change()">
+
+    </main>
+
+    <p id="res1"></p>
+    <p id="res2"></p>
+    <p id="res3"></p>
+
+    <button onclick="calcular()" type="submit">Calcular</button>
+    
+</body>
+</html>
