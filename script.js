@@ -16,7 +16,7 @@ function change(){
     } else{
         at = true;
         document.getElementById("ca").style.opacity = 1;
-        document.getElementById("ca").style.width = "115px";
+        document.getElementById("ca").style.width = "110px";
     }
 }
 
