@@ -45,7 +45,7 @@ function calcular(){
 
      re>pr?document.getElementById("res1").innerHTML = "A reação é exotérmica":document.getElementById("res1").innerHTML = "A reação é endotérmica";
 
-     document.getElementById("res2").innerHTML = "A variação de entalpia é de " + ent + "kJ";
+     document.getElementById("res2").innerHTML = "A variação de entalpia é de " + ent;
 
     if(at == true){
         var eat = ca - re;
@@ -53,7 +53,7 @@ function calcular(){
             alert("Insira apensa números!");
             return;
         }
-        document.getElementById("res3").innerHTML = "A energia de ativação é " + eat + "kJ";
+        document.getElementById("res3").innerHTML = "A energia de ativação é " + eat;
 
     }
 
