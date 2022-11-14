@@ -24,7 +24,7 @@ function calcular(){
     var re = document.getElementById("reagentes").value;
     var pr = document.getElementById("produtos").value; 
     var ca = document.getElementById("ca").value;
-    var ent = re - pr;
+    var ent = pr - re;
     document.getElementById("reagentes").value = "";
     document.getElementById("produtos").value = "";
     document.getElementById("ca").value = "";
