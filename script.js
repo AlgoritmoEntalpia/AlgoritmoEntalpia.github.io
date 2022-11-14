@@ -34,6 +34,11 @@ function calcular(){
         return;
     }
 
+    If(pr == "" || re == ""){
+        alert("Insira a energia!");
+        return;
+    }
+
     if(isNaN(ent) == true){
         alert("Insira apensa números");
         return;
